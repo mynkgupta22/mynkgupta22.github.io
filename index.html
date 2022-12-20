@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open Sans"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="leftnav"></div>
+        <div class="rightnav">
+          <a href="">Home</a>
+          <a href="">Resume</a>
+          <a href="">About</a>
+          <a href="">Skills</a>
+          <a href="">Projects</a>
+          <a href="">Get In Touch</a>
+        </div>
+      </div>
+      <div class="menuicon" onclick="changeFunction()">
+        <div id="line1"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+      </div>
+      <div id="slidenavbar">
+        <div class="menuicon" onclick="changeFunction()">
+          <div id="line1"></div>
+          <div id="line2"></div>
+          <div id="line3"></div>
+        </div>
+
+        <div>
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Resume</a>
+          <a href="">Projects</a>
+          <a href="">Get In Touch</a>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="lefthero">
+          <div>
+            <div class="handimg">
+              <img
+                src="https://raw.githubusercontent.com/tal-zvon/tal-zvon/main/assets/Hand_Wave.gif"
+                width="20%"
+                alt=""
+              />
+            </div>
+            <h1>
+              <div class="handimg">
+                <img
+                  src="https://raw.githubusercontent.com/tal-zvon/tal-zvon/main/assets/Hand_Wave.gif"
+                  width="100%"
+                  alt=""
+                />
+              </div>
+              Hi, I'm <span style="color: #ffa31a">Mayank Gupta</span><br />
+              A Software Developer
+            </h1>
+
+            <div id="herobtn">
+              
+              <a href="./download/Mayank-Gupta-Resume.pdf" download class="top-btn" >Download Resume</a >
+              <a href="">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+        <div class="righthero">
+          <div class="mainimgdiv">
+            <div id="boxdiv"></div>
+            <div class="imgdiv">
+              <img
+                src="https://lh3.googleusercontent.com/S-OLjd6Atpd2jPIdqZkS8fWzP_1h5CBa5HA6Vd4tMpwOYVpYaVaui6E4DuHRP2_Yd88f1tNz-up8ntR_vSoKI-gQvCZ2wdnrfaecjw2vodFKNaGWJZHS25-8SSLHjq5nLirglWjtaII=w2400"
+                alt="img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      <div id="desc">
+        <h2>About Me</h2>
+        <h3>Hi, I’m Mayank. Nice to meet you.</h3>
+        <p style="line-height: 28px">
+          Strong in design and integration with intuitive problem-solving
+          skills. Proficient in JAVA, JAVASCRIPT, and SQL. Passionate about
+          implementing and launching new projects. Ability to translate business
+          requirements into technical solutions. Looking to start the career as
+          an entry-level software engineer with a reputed firm driven by
+          technology
+        </p>
+      </div>
+      
+    </div>
+    <div id="tech_stacks">
+      <h2>My tools <span>&</span> skills</h2>
+    </div>
+    <div class="third_section">
+      <h2>My tools <span style="color: #ffa31a">&</span> skills</h2>
+      <div id="skillsicon">
+        <div><iconify-icon icon="logos:html-5"></iconify-icon>
+        <p class="ptag">HTML</p></div>
+        <div><iconify-icon icon="logos:css-3"></iconify-icon><p class="ptag">CSS</p></div>
+        <div><iconify-icon icon="logos:javascript"></iconify-icon><p class="ptag">JavaScript</p></div>
+        <div><iconify-icon icon="logos:java"></iconify-icon><p class="ptag">Java</p></div>
+        <div><iconify-icon icon="logos:hibernate"></iconify-icon><p class="ptag">Hibernate</p></div>
+        <div><iconify-icon icon="logos:mysql"></iconify-icon><p class="ptag">MySql</p></div>
+        <div><iconify-icon icon="logos:spring"></iconify-icon><p class="ptag">Spring</p></div>
+        <div><iconify-icon icon="logos:postman"></iconify-icon><p class="ptag">PostMan</p></div>
+        <div>
+          <iconify-icon
+            icon="icon-park-outline:github"
+            style="color: #f9af22"
+          ></iconify-icon><p class="ptag">GitHub</p>
+        </div>
+        <div>
+          <iconify-icon
+            icon="simple-icons:intellijidea"
+            style="color: #fa431c"
+          ></iconify-icon><p class="ptag">IntelliJIdea</p>
+        </div>
+        <div>
+          <iconify-icon icon="vscode-icons:file-type-vscode"></iconify-icon><p class="ptag">VS Code</p>
+        </div>
+        <div><iconify-icon icon="mdi:aws"></iconify-icon><p class="ptag">AWS</p></div>
+      </div>
+    </div>
+
+    <div id="projects">
+      <div>
+        <h2><span style="color: #ffffff">Projects</span></h2>
+
+
+        <div class="project__block">
+          
+          <div class="project__left">
+              <div class="project__img">
+                  <img src="./download/Screenshot 2022-12-19 at 7.18.10 PM.png" alt="HelloBonsai">
+              </div>
+              <div class="project__tech">
+                  <p>Tech-stacks : HTML5, CSS3, JavaScript</p>
+                  
+              </div>
+          </div>
+          <div class="project__right">
+              <div class="project__title">
+                  <h3><span style="font-weight: bold;color: #ffcc00;font-size: 22px;"> HelloBonsai</span></h3>
+                  <p>Cloned HelloBonsai website which is provide a AI build service for medical coding.</p>
+                  <p> This is a freelancing management website.This was a team project where 
+                      I with my teammates had created frontend along with dashboard.
+                  </p>
+                  <ul>
+                      <li><span style="font-weight: bold;color: #ffcc00;font-size: 22px;line-height: 35px;"> Features</span></li>
+                    
+                      <li>Login & Signup</li>
+                      <li>Invoice generator</li>
+                      <li>Chatbot</li>
+                  </ul>
+              </div>
+              <div class="project__buttons">
+                  <a href="https://monumental-crisp-761be5.netlify.app/" target="_blank"><button class="btn-live btn-md btn-primary">Live</button></a>
+                  <a href="https://github.com/masum-raja/HelloBonsai" target="_blank"><button class="btn-live btn-md btn-primary">Github</button></a>
+              </div>
+          </div>
+        </div>
+        <br>
+
+        <div class="project__block">
+          <div class="project__left">
+              <div class="project__img">
+                  <img src="./download/Screenshot 2022-11-09 at 11.14.15 PM.png" alt="Tender_Management">
+              </div>
+              <div class="project__tech">
+                  <p>Tech-stacks : Java, JDBC, MySql</p>
+                  
+              </div>
+          </div>
+          <div class="project__right">
+              <div class="project__title">
+                <h3><span style="font-weight: bold;color: #ffcc00;font-size: 22px;"> Next Gen Bidder</span></h3>
+                  <p>Build a console based application of Tender Management System</p>
+                  <p> This is a individual project.This is a tender management system. In which every vendor can bid only 
+                    once against each tender. Against each tender there may be bids from several vendors. The company will 
+                    then select the most suitable bid and places the order to that vendor.
+                  </p>
+                  <ul>
+                      <li><span style="font-weight: bold;color: #ffcc00;font-size: 22px;line-height: 35px;"> Features</span></li>
+                      <li>Login & Signup & forgot password</li>
+                      <li>Invoice generator</li>
+                      <li>Chatbot</li>
+                  </ul>
+              </div>
+              <div class="project__buttons">
+                  <a href="https://drive.google.com/file/d/1a1R1G5TVYnCo0bHSiXyJiY0QfbZZevZi/view" target="_blank"><button class="btn-live btn-md btn-primary">Video</button></a>
+                  <a href="hhttps://github.com/mynkgupta22/tender_management_system" target="_blank"><button class="btn-live btn-md btn-primary">Github</button></a>
+              </div>
+          </div>
+        </div>
+           <br>
+        <div class="project__block">
+          <div class="project__left">
+              <div class="project__img">
+                  <img src="./download/Screenshot 2022-12-13 at 7.03.44 PM.png" alt="Online cab Booking">
+              </div>
+              <div class="project__tech">
+                  <p>Tech-stacks : Java, SpringBoot, MySql</p>
+                  
+              </div>
+          </div>
+          <div class="project__right">
+              <div class="project__title">
+                  <h3><span style="font-weight: bold;color: #ffcc00;font-size: 22px;">CabMate</span></h3>
+                  <p>Build Restful api for online cab booking system.</p>
+                  <p> This was a group project.We had built an Application for Online Cab Booking where Customer should be able to view the list of available cabs.
+                    Customer should be able to book cab for desired location from a certain location.
+                  </p>
+                  <ul>
+                      <li><span style="font-weight: bold;color: #ffcc00;font-size: 22px;line-height: 35px;"> Features</span></li>
+                      <li>Login & Logout</li>
+                      <li>Admin Module</li>
+                      <li>Customer Module</li>
+                      <li>Driver Module</li>
+                  </ul>
+              </div>
+              <div class="project__buttons">
+                  <a href="https://drive.google.com/file/d/1Rh2zopjXIXMGn2xrUsyCk5noJraqgKI5/view?usp=sharing" target="_blank"><button class="btn-live btn-md btn-primary">Video</button></a>
+                  <a href="https://github.com/alka1520/-interesting-debt-3332" target="_blank"><button class="btn-live btn-md btn-primary">Github</button></a>
+              </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    
+
+
+
+
+  <div class="title reveal" style="width: 90%; margin: auto;">
+      <a target="_blank" rel="noreferrer" id="cicin" href="https://github.com/Mynkgupta22" style="text-decoration: none;">
+      <p style="text-align: center; font-size: 200%; color:#ffffff;padding: 3%;">My Github contributions</p>
+      <img width="100%" style="margin-bottom:20px;display: flex; padding: auto;"  id="github-contributions" src="https://ghchart.rshah.org/Mynkgupta22" href="https://github.com/Mynkgupta22" alt="Github chart" />
+  </a>
+  </div>
+    <div class="statsBox">
+      <h3>GitHub Stats</h3>
+      <div>
+      <div class="statsContainer">
+          <div>
+              <a href="https://github.com/mynkgupta22" target="_blank">
+                  <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=mynkgupta22" />
+              </a>
+          </div>
+      </div>
+
+      <div class="stats-3">
+          <p align="center">
+          <a href="https://github.com/mynkgupta22" target="_blank">
+                  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mynkgupta22&bg_color=0D1117" alt="" />
+              </a>
+          </p>
+      </div>
+
+      <div class="stats-2">
+          <p align="center">
+              <a href="https://github.com/mynkgupta22/github-readme-stats" target="_blank">
+                  <img alt="AshishGupta189 Github Stats" 
+                  src="https://github-readme-stats.vercel.app/api?username=mynkgupta22&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" 
+                  />
+              </a>
+          </p>
+      </div>
+
+      
+      </div>
+  </div>
+  <div class="graph-1">
+      <p align="center">
+          <a href="https://github.com/mynkgupta22" target="_blank"><span>
+              <img align="center" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mynkgupta22&theme=dracula&bg_color=0D1117" />
+          </span></a> 
+      </p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <div id="contact">
+      <div class="contact__container">
+        <div class="contact__left">
+          <h2>Contact me</h2>
+          <p>Please feel free to contact me via email or linkedin</p>
+         
+          <ul class="footer__socials">
+            <li>
+              <a href="https://www.linkedin.com/in/mayank-gupta-4954b2120" target="_blank"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/mynkgupta22" target="_blank"
+                ><i class="uil uil-github"></i
+              ></a>
+            </li>
+            <li><i class="uil uil-phone-alt"></i></li>
+            <li id="phone__li">+91 9057201687</li>
+          </ul>
+
+          
+          <p>You can also download my resume using below button</p>
+          <a
+            href="./download/Mayank-Gupta-Resume.pdf" download class="top-btn" id="downloadbtn"
+            >Download Resume</a
+          >
+        </div>
+        <div class="contact_right">
+          <form action="">
+            <input type="text" name="name" id="cname" placeholder="Your Name" />
+            <input
+              type="email"
+              name="email"
+              id="cemail"
+              placeholder="Your Email"
+            />
+            <textarea
+              name="message"
+              rows="6"
+              id="cmessage"
+              placeholder="Message"
+            ></textarea>
+            <button type="submit" class="btn" id="csend">Send</button>
+          </form>
+        </div>
+
+       
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  
+
+  window.onload = function () {
+    GitHubCalendar(".calendar", "mynkgupta22");
+    GitHubCalendar(".calendar", "mynkgupta22", { responsive: true });
+  };
+
+  let send = document.getElementById("csend");
+
+  send.addEventListener("click", function (e) {
+    e.preventDefault();
+    let uname = document.getElementById("cname").value;
+    let email = document.getElementById("cemail").value;
+    let message = document.getElementById("cmessage").value;
+    Email.send({
+      Host: "smtp.gmail.com",
+      Username: "mayankmk22@gmail.com",
+      Password: "rrfcackagszykucg",
+      To: "mayankmk22@gmail.com",
+      From: email,
+      Subject: "Sending Email from portfolio",
+      Body: message,
+      Attachments: [
+        {
+          name: "File_Name_with_Extension",
+          path: "Full Path of the file",
+        },
+      ],
+    }).then(function (message) {
+      alert("Mail has been sent successfully");
+    });
+  });
+</script>
+
