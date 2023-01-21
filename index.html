@@ -42,7 +42,7 @@
         <div class="leftnav"></div>
         <div class="rightnav">
           <a href="#home">Home</a>
-          <a href="#resume">Resume</a>
+          <a href="./download/Mayank-Gupta-Resume.pdf" id="downloadresume" download="Mayank_Gupta_Resume" target="_blank" class="top-btn">Resume</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
@@ -63,7 +63,7 @@
 
         <div>
           <a href="#home">Home</a>
-          <a href="#resume">Resume</a>
+          <a href="./download/Mayank-Gupta-Resume.pdf" id="downloadresume3" download="Mayank_Gupta_Resume" target="_blank" class="top-btn">Resume</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
@@ -95,7 +95,7 @@
 
             <div id="herobtn">
               
-              <a href="./download/Mayank-Gupta-Resume.pdf" download class="top-btn" >Download Resume</a >
+              <a href="./download/Mayank-Gupta-Resume.pdf" id="downloadresume4" download="Mayank_Gupta_Resume" target="_blank" class="top-btn">Resume</a>
               <a href="">Get In Touch</a>
             </div>
           </div>
@@ -234,6 +234,39 @@
           </div>
         </div>
            <br>
+        
+        <div class="project__block">
+          <div class="project__left">
+              <div class="project__img">
+                  <img src="./download/Screenshot 2022-11-09 at 11.14.15 PM.png" alt="Green_Basket">
+              </div>
+              <div class="project__tech">
+                  <p>Tech-stacks : Java, SpringBoot, MySql,</p>
+                  
+              </div>
+          </div>
+          <div class="project__right">
+              <div class="project__title">
+                <h3><span style="font-weight: bold;color: #ffcc00;font-size: 22px;"> Green Basket</span></h3>
+                  <p>Build a online sales vegetable application</p>
+                  <p> This is a group project.This is a tender management system. In which every vendor can bid only 
+                    once against each tender. Against each tender there may be bids from several vendors. The company will 
+                    then select the most suitable bid and places the order to that vendor.
+                  </p>
+                  <ul>
+                      <li><span style="font-weight: bold;color: #ffcc00;font-size: 22px;line-height: 35px;"> Features</span></li>
+                      <li>Login & Signup & forgot password</li>
+                      <li>Invoice generator</li>
+                      <li>Chatbot</li>
+                  </ul>
+              </div>
+              <div class="project__buttons">
+                  <a href="https://drive.google.com/file/d/1a1R1G5TVYnCo0bHSiXyJiY0QfbZZevZi/view" target="_blank"><button class="btn-live btn-md btn-primary">Video</button></a>
+                  <a href="hhttps://github.com/mynkgupta22/tender_management_system" target="_blank"><button class="btn-live btn-md btn-primary">Github</button></a>
+              </div>
+          </div>
+        </div>
+           <br>
         <div class="project__block">
           <div class="project__left">
               <div class="project__img">
@@ -302,7 +335,7 @@
       <div class="stats-2">
           <p align="center">
               <a href="https://github.com/mynkgupta22/github-readme-stats" target="_blank">
-                  <img alt="AshishGupta189 Github Stats" 
+                  <img alt="Github Stats" 
                   src="https://github-readme-stats.vercel.app/api?username=mynkgupta22&show_icons=true&locale=en&theme=react&hide_border=true&bg_color=0D1117" 
                   />
               </a>
@@ -345,10 +378,11 @@
 
           
           <p>You can also download my resume using below button</p>
-          <a
+<!--           <a
             href="./download/Mayank-Gupta-Resume.pdf" download class="top-btn" id="downloadbtn"
             >Download Resume</a
-          >
+          > -->
+          <a href="./download/Mayank-Gupta-Resume.pdf" id="downloadresume2" download="Mayank_Gupta_Resume" target="_blank" class="top-btn">Resume</a>
         </div>
         <div class="contact_right">
           <form action="">
@@ -376,6 +410,26 @@
 </html>
 
 <script>
+  
+  let resume = document.getElementById("downloadresume");
+resume.addEventListener("click",function(){
+    window.open("https://drive.google.com/file/d/1B56kJzteSOrBSyVhofgH4Tat-FTI6eCS/view?usp=sharing")
+})
+
+let resume2 = document.getElementById("downloadresume2");
+resume2.addEventListener("click",function(){
+    window.open("https://drive.google.com/file/d/1B56kJzteSOrBSyVhofgH4Tat-FTI6eCS/view?usp=sharing")
+})
+  
+    let resume3 = document.getElementById("downloadresume3");
+resume.addEventListener("click",function(){
+    window.open("https://drive.google.com/file/d/1B56kJzteSOrBSyVhofgH4Tat-FTI6eCS/view?usp=sharing")
+})
+
+let resume4 = document.getElementById("downloadresume4");
+resume2.addEventListener("click",function(){
+    window.open("https://drive.google.com/file/d/1B56kJzteSOrBSyVhofgH4Tat-FTI6eCS/view?usp=sharing")
+})
   
 
   window.onload = function () {
