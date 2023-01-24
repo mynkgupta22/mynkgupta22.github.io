@@ -55,7 +55,7 @@ h2 {
 #herobtn {
   margin-top: 30px;
 }
-#herobtn > a {
+#herobtn > a, .topbtn {
   text-decoration: none;
   background-color: #ffcc00;
   border-radius: 10px;
