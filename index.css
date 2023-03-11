@@ -48,6 +48,11 @@ h2 {
   padding-right: 50px;
   
 }
+.righthero{
+   display:flex;
+  align-content: center;
+    justify-content: center;
+}
 .hero {
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -71,6 +76,7 @@ h2 {
 }
 
 .imgdiv {
+  display:flex;
   align-content: center;
     justify-content: center;
 }
