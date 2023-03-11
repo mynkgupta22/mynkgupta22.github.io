@@ -91,7 +91,7 @@ h2 {
   visibility: hidden;
 }
 .main {
-  margin-bottom: 300px;
+  margin-bottom: 150px;
 }
 .about {
   color: white;
@@ -393,6 +393,12 @@ textarea{
 }
 #contact{
     margin: 80px;
+}
+   .project__block{
+   
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
 }
   
 
