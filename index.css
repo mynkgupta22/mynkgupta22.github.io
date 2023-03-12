@@ -142,6 +142,12 @@ h2 {
     color: black;
     background-color: #ffcc00;
 }
+.project__left{
+  display: grid;
+    align-content: center;
+  justify-content: center;
+}
+  
 .project__right{
     display: grid;
     align-content: center;
