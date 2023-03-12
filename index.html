@@ -49,7 +49,7 @@
           <a href="#contact">Get In Touch</a>
         </div>
       </div>
-      <div class="menuicon" onclick="changeFunction()">
+      <div class="menuicon" id="menuid" onclick="changeFunction()">
         <div id="line1"></div>
         <div id="line2"></div>
         <div id="line3"></div>
@@ -466,6 +466,7 @@ resume4.addEventListener("click",function(){
 <script>
     let count=0;
     var slidenavbar = document.getElementById("slidenavbar");
+  var menuid = document.getElementById("menuid");
     function changeFunction(){
         if (count == 0) {
         count = 1;
@@ -473,11 +474,13 @@ resume4.addEventListener("click",function(){
     
     slidenavbar.style.opacity="1";
     slidenavbar.style.visibility="visible";
+          menuid.style.visibility="hidden";
   } else {
     count = 0;
   
     slidenavbar.style.opacity="0";
     slidenavbar.style.visibility="hidden";
+     menuid.style.visibility="visible";
   }
     }
 </script>
