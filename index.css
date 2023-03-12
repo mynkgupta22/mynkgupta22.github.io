@@ -406,6 +406,7 @@ textarea{
 }
 @media screen and (min-width:280px) and (max-width: 540px) {
   .main {
+    margin-top:30px;
     margin-bottom: 60px;
 }
   .navbar {
