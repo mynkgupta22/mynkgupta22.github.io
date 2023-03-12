@@ -463,4 +463,22 @@ resume4.addEventListener("click",function(){
 
 });
 </script>
+<script>
+    let count=0;
+    var slidenavbar = document.getElementById("slidenavbar");
+    function changeFunction(){
+        if (count == 0) {
+        count = 1;
+   
+    
+    slidenavbar.style.opacity="1";
+    slidenavbar.style.visibility="visible";
+  } else {
+    count = 0;
+  
+    slidenavbar.style.opacity="0";
+    slidenavbar.style.visibility="hidden";
+  }
+    }
+</script>
 
