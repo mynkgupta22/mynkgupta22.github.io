@@ -42,7 +42,7 @@ h2 {
   padding-left: 50px;
   padding-right: 50px;
   display:flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   
 }
